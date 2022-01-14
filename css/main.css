@@ -1,0 +1,48 @@
+.way {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+}
+
+.way__heading {
+    text-align: center;
+}
+
+.way__form {
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+
+.way__input {
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+button {
+    padding: 6px;
+    width: 100px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: aqua;
+    margin-left: 20px;
+}
+
+.result__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.result__item {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
